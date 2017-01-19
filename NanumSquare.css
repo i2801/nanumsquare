@@ -23,6 +23,17 @@
 @font-face {
   font-family: 'Nanum Square';
   font-style: normal;
+  font-weight: 600;
+  src: url(./NanumSquareBold.eot) format('eot');
+  src: url(./NanumSquareBold.eot?#iefix) format('embedded-opentype'),
+       url(./NanumSquareBold.woff2) format('woff2'),
+       url(./NanumSquareBold.woff) format('woff'),
+       url(./NanumSquareBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Square';
+  font-style: normal;
   font-weight: 800;
   src: url(./NanumSquareExtraBold.eot) format('eot');
   src: url(./NanumSquareExtraBold.eot?#iefix) format('embedded-opentype'),
